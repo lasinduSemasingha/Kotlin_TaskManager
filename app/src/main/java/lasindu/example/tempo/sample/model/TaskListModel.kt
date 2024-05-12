@@ -1,4 +1,4 @@
-package com.example.tempo.model
+package lasindu.example.tempo.sample.model
 
 import java.util.Date
 

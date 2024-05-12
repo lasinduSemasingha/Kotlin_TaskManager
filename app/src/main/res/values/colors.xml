@@ -9,4 +9,5 @@
     <color name="dYellow">#FFA500</color>
     <color name="cardBack">#4DFFFFFF</color>
     <color name="yellow">#FFD700</color>
+    <color name="red">#FF0000</color>
 </resources>

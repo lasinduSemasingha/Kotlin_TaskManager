@@ -6,6 +6,9 @@ import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import kotlin.math.log
+import android.util.Log;
+
 
 class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME, null, DATABASE_VERSION) {
 
@@ -73,6 +76,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAME
             firstName = cursor.getString(cursor.getColumnIndex(COLUMN_FIRSTNAME))
             cursor.close()
         }
+        Log.d("DatabaseHelper", "Retrieved firstName: $firstName for username: $username")
         return firstName
     }
 
