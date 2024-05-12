@@ -88,7 +88,7 @@
         android:backgroundTint="@color/black"
         android:fontFamily="@font/exo_extrabold"
         android:gravity="center"
-        android:text="@string/Save"
+        android:text="@string/add"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
