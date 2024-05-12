@@ -5,6 +5,7 @@
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="Login">LOGIN</string>
+    <string name="Save">Save</string>
     <string name="register">REGISTER</string>
     <string name="fName">First Name</string>
     <string name="lName">Last Name</string>
@@ -15,4 +16,17 @@
     <string name="hi">Hi, </string>
     <string name="available">Available</string>
     <string name="completed">Completed</string>
+    <string name="addTask">Task Add</string>
+    <string name="addName">Task Name</string>
+    <string name="taskDescription">Task Description</string>
+    <string name="taskDeadline">Task Deadline</string>
+    <string name="taskName">Task Name</string>
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+    <string name="floatingBTN">floating Button</string>
+    <string-array name="priority_levels">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
 </resources>

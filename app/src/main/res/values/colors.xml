@@ -8,4 +8,5 @@
     <color name="rBackground">#F8F6F0</color>
     <color name="dYellow">#FFA500</color>
     <color name="cardBack">#4DFFFFFF</color>
+    <color name="yellow">#FFD700</color>
 </resources>

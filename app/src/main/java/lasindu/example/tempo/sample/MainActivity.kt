@@ -1,9 +1,11 @@
 package lasindu.example.tempo.sample
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import lasindu.example.tempo.sample.DatabaseHelper
 
 class MainActivity : AppCompatActivity() {
@@ -32,6 +34,14 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<TextView>(R.id.availableTextView).text = "Available: $availableCount"
         findViewById<TextView>(R.id.completedTextView).text = "Completed: $completedCount"
+
+        val fab: FloatingActionButton = findViewById(R.id.addTaskFab)
+        fab.setOnClickListener {
+            // Code to execute when the FAB is clicked
+            val intent = Intent(this, TaskActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun getFirstNameFromDatabase(username: String?): String {

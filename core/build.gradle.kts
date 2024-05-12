@@ -70,6 +70,10 @@ dependencies {
     //Androidx Security
     implementation("androidx.security:security-crypto:1.1.0-alpha06")
 
+    implementation("androidx.navigation:navigation-fragment-ktx:2.7.7")
+    implementation("androidx.navigation:navigation-fragment:2.7.7")
+
+
     //Google Guava
     implementation("com.google.guava:guava:33.1.0-jre")
 
