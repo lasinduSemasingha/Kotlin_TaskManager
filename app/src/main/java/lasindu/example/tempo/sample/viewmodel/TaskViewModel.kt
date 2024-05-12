@@ -1,4 +1,4 @@
-package lasindu.example.tempo.sample.data
+package lasindu.example.tempo.sample.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
@@ -6,13 +6,13 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import lasindu.example.tempo.sample.data.Task
 import lasindu.example.tempo.sample.data.TaskDatabase
-import lasindu.example.tempo.sample.data.TaskRepository
+import lasindu.example.tempo.sample.repository.TaskRepository
+import lasindu.example.tempo.sample.model.Task
 
 class TaskViewModel(application: Application): AndroidViewModel(application) {
 
-    private val readAllData: LiveData<List<Task>>
+    val readAllData: LiveData<List<Task>>
     private val repository: TaskRepository
 
     init {

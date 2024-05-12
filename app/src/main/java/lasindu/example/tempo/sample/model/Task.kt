@@ -1,4 +1,4 @@
-package lasindu.example.tempo.sample.data
+package lasindu.example.tempo.sample.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

@@ -1,6 +1,8 @@
-package lasindu.example.tempo.sample.data
+package lasindu.example.tempo.sample.repository
 
 import androidx.lifecycle.LiveData
+import lasindu.example.tempo.sample.data.TaskDao
+import lasindu.example.tempo.sample.model.Task
 
 class TaskRepository(private val taskDao: TaskDao) {
 
